@@ -1,0 +1,13 @@
+Category,System_Call,Latency_Microseconds,Success,ErrorCode
+File I/O,CreateFile(),247.5,1,0
+File I/O,WriteFile(),96.7,1,0
+File I/O,ReadFile(),13.1,1,0
+File I/O,CloseHandle(),177,1,0
+Memory,VirtualAlloc(),12.5,1,0
+Memory,VirtualFree(),8.3,1,0
+IPC,CreatePipe(),55.3,1,0
+IPC,CreateFileMapping(),41.5,1,0
+IPC,MapViewOfFile(),5.7,1,0
+Process,CreateProcess(),13578.6,1,0
+Process,WaitForSingleObject(),34136.8,1,0
+Permissions,SetFileSecurity(),1490.7,1,0
