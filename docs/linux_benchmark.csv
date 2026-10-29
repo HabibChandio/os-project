@@ -1,0 +1,16 @@
+Category,System_Call,Latency_Microseconds,Success,ErrorCode
+File I/O,open(),36.06,1,0
+File I/O,write(),17.84,1,0
+File I/O,read(),2.43,1,0
+File I/O,close(),1.98,1,0
+Memory,mmap(),5.79,1,0
+Memory,munmap(),9.80,1,0
+IPC,pipe(),5.70,1,0
+IPC,shmget(),8.41,1,0
+IPC,shmat(),8.68,1,0
+Permissions,umask(),0.96,1,0
+Permissions,chmod(),6.09,1,0
+Permissions,chown(),4.43,1,0
+Process,fork(),112.65,1,0
+Process,wait(),462.12,1,0
+Process,exec(),112.65,1,0
